@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF4081</color>
+    <color name="accent_light">#FF80AB</color>
+    <color name="accent_dark">#F50057</color>
+    
+    <!-- 文本颜色 -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- 背景颜色 -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#303030</color>
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#424242</color>
+    
+    <!-- 徽章颜色 -->
+    <color name="badge_food">#FF9800</color>
+    <color name="badge_culture">#9C27B0</color>
+    <color name="badge_animal">#4CAF50</color>
+    
+    <!-- 挑战任务颜色 -->
+    <color name="challenge_in_progress">#2196F3</color>
+    <color name="challenge_completed">#4CAF50</color>
+    <color name="challenge_difficulty">#FFC107</color>
+    <color name="reward_xp">#9C27B0</color>
+    
+    <!-- 地图颜色 -->
+    <color name="map_route">#2196F3</color>
+    <color name="map_start_point">#4CAF50</color>
+    <color name="map_end_point">#F44336</color>
+    <color name="map_place_marker">#FF9800</color>
+    
+    <!-- 图表颜色 -->
+    <color name="chart_distance">#2196F3</color>
+    <color name="chart_places">#4CAF50</color>
+    <color name="chart_badges">#FF9800</color>
+    
+    <!-- 分割线颜色 -->
+    <color name="divider_light">#E0E0E0</color>
+    <color name="divider_dark">#616161</color>
+    
+    <!-- 状态颜色 -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+</resources>

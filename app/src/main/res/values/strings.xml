@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">足迹探索</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    
+    <!-- 主页面 -->
+    <string name="title_home">首页</string>
+    <string name="title_map">地图</string>
+    <string name="title_reports">报告</string>
+    <string name="title_badges">徽章</string>
+    
+    <!-- 导航抽屉 -->
+    <string name="nav_settings">设置</string>
+    <string name="nav_share">分享应用</string>
+    <string name="nav_about">关于我们</string>
+    
+    <!-- 位置追踪 -->
+    <string name="start_tracking">开始记录</string>
+    <string name="stop_tracking">停止记录</string>
+    <string name="tracking_active">正在记录足迹</string>
+    <string name="tracking_inactive">未记录足迹</string>
+    
+    <!-- 报告 -->
+    <string name="weekly_report">周报告</string>
+    <string name="monthly_report">月报告</string>
+    <string name="yearly_report">年报告</string>
+    <string name="share_report">分享报告</string>
+    <string name="export_report">导出报告</string>
+    
+    <!-- 徽章 -->
+    <string name="all_badges">全部</string>
+    <string name="food_badges">美食</string>
+    <string name="culture_badges">文物</string>
+    <string name="animal_badges">动物</string>
+    <string name="badge_unlocked">解锁新徽章！</string>
+    <string name="no_badges">暂无徽章，快去探索吧！</string>
+    
+    <!-- 设置 -->
+    <string name="settings_tracking">追踪设置</string>
+    <string name="settings_tracking_mode">追踪模式</string>
+    <string name="settings_tracking_interval">追踪间隔</string>
+    <string name="settings_notification">通知设置</string>
+    <string name="settings_theme">主题设置</string>
+    <string name="settings_privacy">隐私设置</string>
+    
+    <!-- 通用 -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+    <string name="loading">加载中…</string>
+    <string name="error">出错了</string>
+    <string name="retry">重试</string>
+    <string name="no_data">暂无数据</string>
+</resources>

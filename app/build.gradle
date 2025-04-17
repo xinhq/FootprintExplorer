@@ -1,0 +1,80 @@
+// 应用级build.gradle文件
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.example.footprintexplorer"
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // Android 核心库
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    
+    // 生命周期组件
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.6.1'
+    
+    // 导航组件
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    
+    // Room 数据库
+    implementation 'androidx.room:room-runtime:2.5.2'
+    annotationProcessor 'androidx.room:room-compiler:2.5.2'
+    
+    // 位置服务
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    
+    // 地图服务
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    
+    // 图表库 - 用于报告可视化
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    
+    // 图片加载库
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.1'
+    
+    // 工作管理器 - 用于后台任务
+    implementation 'androidx.work:work-runtime:2.8.1'
+    
+    // 权限处理
+    implementation 'com.karumi:dexter:6.2.3'
+    
+    // 动画库
+    implementation 'com.airbnb.android:lottie:6.0.0'
+    
+    // 测试库
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
